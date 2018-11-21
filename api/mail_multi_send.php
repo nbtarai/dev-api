@@ -7,7 +7,7 @@ $userIdsLen = count($userIds);
 $okUserList = [];
 $ngUserList = [];
 for ($i = 0; $i < $userIdsLen; $i++) {
-    $okUserList[] = ['user_id' => $userIds[$i]];
+    $okUserList[] = ['user_id' => $userIds[$i]];
 }
 
 $data = ['ok_user_list' => $okUserList, 'ng_user_list' => $ngUserList];

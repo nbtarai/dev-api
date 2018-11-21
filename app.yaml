@@ -7,3 +7,5 @@ handlers:
   script: helloworld.php
 - url: /api/sampleapi.php
   script: api/sampleapi.php
+- url: /api/mail_multi_send.php
+  script: api/mail_multi_send.php
