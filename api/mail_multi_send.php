@@ -16,7 +16,7 @@ for ($i = 0; $i < $userIdsLen; $i++) {
     }
 }
 
-$data = ['ok_user_list' => $okUserList, 'ng_user_list' => $ngUserList];
+$data = ['user_ok_list' => $okUserList, 'user_ng_list' => $ngUserList];
 
 $retData = ['code' => 200, 'message' => 'test', 'data' => $data, 'user' => []];
 
