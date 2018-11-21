@@ -3,7 +3,7 @@ api_version: 1
 threadsafe: true
 
 handlers:
-- url: /.*
+- url: /
   script: helloworld.php
 - url: /api/sampleapi.php
-  script: /api/sampleapi.php
+  script: api/sampleapi.php
