@@ -5,3 +5,5 @@ threadsafe: true
 handlers:
 - url: /.*
   script: helloworld.php
+- url: /api/sampleapi.php
+  script: /api/sampleapi.php
