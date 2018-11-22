@@ -9,3 +9,5 @@ handlers:
   script: api/sampleapi.php
 - url: /api/mail_multi_send.php
   script: api/mail_multi_send.php
+- url: /api/mail_multi_send_check.php
+  script: api/mail_multi_send_check.php
